@@ -3,7 +3,9 @@ You can register to the atlas the coordinates of segmentations done using other 
 
 Select the `Region Segmentation` button in the `Segmentation panel`.
 
+{% hint style="info" %}
 ![Segmenting a 2/3D structure](../../.gitbook/assets/region_seg%20%281%29.png)
+{% endhint %}
 
 To load your data
 
@@ -21,6 +23,9 @@ Or:
 
 You can have an overview of some examples here (INCLUDE!!)
 
+*Use https://github.com/clEsperanto/napari_pyclesperanto_assistant
+*Use https://github.com/haesleinhuepf/napari-skimage-regionprops
+
 Then:
 * Open the brainreg-segment plugin
 * Open the region segmentation panel
@@ -35,3 +40,6 @@ Then:
   * If `Calculate volumes` is selected, the volume of each brain area included in the segmented region will be calculated and saved.
   * If `Summarise volumes` is selected, then each region will be summarised \(centers, volumes etc\)
 
+{% hint style="info" %}
+All data will be saved into your brainreg output directory
+{% endhint %}
