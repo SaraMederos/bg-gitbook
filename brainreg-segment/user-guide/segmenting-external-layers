@@ -13,11 +13,10 @@ To load your data
 
 Then: 
 * Open as a layer in Napari the .tiff file  with your segmentation of interest or mask that you want to use for the registration to the atlas
-* For example your segmentation can be done by using other napari pluggins that run using a deep learning-based segmentation algorithm such as [cellpose] (https://cellpose-napari.readthedocs.io/en/latest/running.html#d-segmentation)
+* For example your segmentation can be done by simpleitk plugin or using other napari pluggins that run using a deep learning-based segmentation algorithms 
 
-Or: 
 * Select the channel of interest and use one of the segmentation plugins in napari
-        * You might need to install this pluggings  [napari pluggins ] (https://github.com/haesleinhuepf/napari-simpleitk-image-processing) you can also use the gui installing the napari assistant(https://www.napari-hub.org/plugins/napari-assistant)   
+        * You might need to install these pluggings  [napari pluggins ] (https://github.com/haesleinhuepf/napari-simpleitk-image-processing) you can also use the gui installing the napari assistant(https://www.napari-hub.org/plugins/napari-assistant)   
         * You can then load the different options by navigating to Plugins ->  or Tools ->.  Some details of the different segmentation options developed in napari based on fluorescence microscopy can be found here https://github.com/haesleinhuepf/napari-segment-blobs-and-things-with-membranes
 * Navigate to where you want to draw your region of interest.
 
