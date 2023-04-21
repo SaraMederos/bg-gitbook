@@ -21,7 +21,7 @@ Or:
         * You can then load the different options by navigating to Plugins ->  or Tools ->.  Some details of the different segmentation options developed in napari based on fluorescence microscopy can be found here https://github.com/haesleinhuepf/napari-segment-blobs-and-things-with-membranes
 * Navigate to where you want to draw your region of interest.
 
-You can have an overview of some examples here (INCLUDE!!)
+You can have an overview of some examples here 
 
 *Use https://github.com/clEsperanto/napari_pyclesperanto_assistant
 *Use https://github.com/haesleinhuepf/napari-skimage-regionprops
